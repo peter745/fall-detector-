@@ -1,3 +1,4 @@
 # fall-detector-
+**Abstract:**
 
-Abstract: Fall detector is a device used in the detection of Irregular movement of those who have movement disorders. 
+This paper presents the design and implementation of a fall detection device aimed at assisting individuals with movement disabilities, such as the elderly, Parkinson’s disease patients, or those recovering from surgeries. The device utilizes an MPU6050 gyroscope sensor to monitor and detect irregular movement patterns indicative of falls. Upon detecting a potential fall, the device triggers an audible alarm through a buzzer and activates an LED to alert the patient or nearby caregivers. The device is built using an ESP8266 microcontroller, which leverages its WiFi capability to transmit the collected motion data to a cloud platform, such as ThingSpeak, for real-time analysis and monitoring. This data can be accessed remotely by healthcare professionals or caregivers, allowing them to assess the patient’s condition and respond to emergencies promptly. The proposed system offers a low-cost, real-time fall detection solution, enhancing the safety and independence of individuals with limited mobility.
