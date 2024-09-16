@@ -11,9 +11,9 @@ const int ledPin = D0;
 const int buzzerPin = D3;
 const int buttonPin = D4; 
 bool buttonPressed = false;
-const char *ssid = "mora";
-const char *password = "mora1234";
-const String apiKey = "G9AQJ7HVZXM5OWFN";
+const char *ssid = "SSID";
+const char *password = "PASSWORD";
+const String apiKey = ""; //Put your API Here
 const String server = "api.thingspeak.com";
 
 void buttonInterrupt();
